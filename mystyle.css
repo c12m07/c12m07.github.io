@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    background: whitesmoke url(./assets/img_tree.webp) center;
+    background-repeat: repeat-y ;
+    background-size: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: 20px auto;
+    padding: 5px 30px;
+    height:90vh;
+}
+
+h1{
+    background-color: lightblue;
+    margin: 20px auto;
+    width: 50%;
+    padding-top: 30px;
+    padding: 40px 10px;
+    height: 100px;
+    line-height: 90px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p, div{
+    background-color: lightyellow ;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p{
+    border: 4px dotted red;
+}
+
+div{
+    border: 2px solid red; 
+    margin: 1%;
+    margin-left: 25px;
+    overflow-x: scroll;
+    overflow: hidden;
+}
+
+.intro{
+    width: 200px;
+    height: 70px;
+    overflow: scroll;
+}
